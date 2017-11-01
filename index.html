@@ -79,8 +79,7 @@
                 <!-- <h2>Welcome to my digital home, I'm <span>Sunny.</span></h2> -->
 
                 <h1>
-                    <a href="" class="typewrite" data-period="300" 
-                        data-type='[ "Welcome to my digital home.", "My name is Sunny.", "I am a software developer." ]'>
+                    <a href="" class="typewrite" data-period="300" data-type='[ "Welcome to my digital home.", "My name is Sunny.", "I am a software developer." ]'>
                         <span class="wrap"></span>
                     </a>
                 </h1>
@@ -374,8 +373,8 @@
                         <p>
                             (2017) Brock A. Harpur, Alivia Dey, Jennifer R. Albert, Sani Patel, Heather M. Hines, Martin Hasselmann, Laurence Packer,
                             Amro Zayed;
-                            <b>Queens and Workers Contribute Differently to Adaptive Evolution in Bumble Bees and Honey Bees</b>, Genome Biology
-                            and Evolution, Volume 9, Issue 9, Pages 2395–2402,
+                            <b>Queens and Workers Contribute Differently to Adaptive Evolution in Bumble Bees and Honey Bees</b>,
+                            Genome Biology and Evolution, Volume 9, Issue 9, Pages 2395–2402,
                             <a href="https://doi.org/10.1093/gbe/evx182">https://doi.org/10.1093/gbe/evx182</a>
                         </p>
                     </div>
@@ -418,20 +417,23 @@
             <div class="eight columns">
 
                 <!-- form -->
-                <form action="https://formspree.io/sanipatel2141@hotmail.com" method="post" id="contactForm" name="contactForm">
+                <!-- form -->
+                <form action="https://formspree.io/sanipatel2141@hotmail.com" method="post">
                     <fieldset>
                         <div>
                             <label for="contactName">Name
                                 <span class="required">*</span>
                             </label>
-                            <input type="text" value="" size="35" id="contactName" name="contactName">
+                            <input type="text" value="" size="35" required="required" oninvalid="this.setCustomValidity('Please enter your name here')"
+                                oninput="setCustomValidity('')" id="contactName" name="contactName">
                         </div>
 
                         <div>
                             <label for="contactEmail">Email
                                 <span class="required">*</span>
                             </label>
-                            <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                            <input type="text" value="" size="35" required="required" oninvalid="this.setCustomValidity('Please enter your email address')"
+                                oninput="setCustomValidity('')" id="contactEmail" name="contactEmail">
                         </div>
 
                         <div>
@@ -443,14 +445,14 @@
                             <label for="contactMessage">Message
                                 <span class="required">*</span>
                             </label>
-                            <textarea cols="50" rows="10" id="contactMessage" name="contactMessage"></textarea>
+                            </br>
+                            <textarea cols="50" rows="10" required="required" oninvalid="this.setCustomValidity('Enter your message her')" oninput="setCustomValidity('')"
+                                id="contactMessage" name="contactMessage"></textarea>
                         </div>
 
                         <div>
-                            <button class="submit">Submit</button>
-                            <span id="image-loader">
-                                <img alt="" src="images/loader.gif">
-                            </span>
+                            <input type="submit" size="" value="Submit" class="submit">
+                            <input type="hidden" name="_next" value="https://sunnypatel2141.github.io/ThankYou.html" />
                         </div>
 
                     </fieldset>
@@ -489,24 +491,31 @@
 
         </div>
 
-    <footer>
-            
-        <div class="row">
+        <footer>
 
-            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-        
+            <div class="row">
 
-            <div class="twelve columns">
+                <div id="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#home">
+                        <i class="icon-up-open"></i>
+                    </a>
+                </div>
 
-                <ul class="copyright">
-                    <li>&copy; Copyright 2014 CeeVee</li>
-                    <li>Template by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-                </ul>
 
+                <div class="twelve columns">
+
+                    <ul class="copyright">
+                        <li>&copy; Copyright 2014 CeeVee</li>
+                        <li>Template by
+                            <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
-        </div>
 
-    </footer> <!-- Footer End-->
+        </footer>
+        <!-- Footer End-->
 
     </section>
     <!-- Contact Section End-->
