@@ -351,6 +351,7 @@ ul#nav li.current a {
   font: 25px/30px 'opensans-bold', sans-serif;
   color: white;
   margin-top: 10px;
+  text-align: left;
 }
 
 #resume p {
@@ -446,7 +447,7 @@ ul#nav li.current a {
 
 .bars li em {
   font: 15px 'opensans-bold', sans-serif;
-  color: #313131;
+  color: #286DA8;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
@@ -471,26 +472,9 @@ ul#nav li.current a {
   width: 60%;
   -moz-animation: htmlcss 2s ease;
   -webkit-animation: htmlcss 2s ease;
-  background-color: #0d5f7a;
-  border-right: 1px solid #0678a1b6;
+  background-color: black;
+  border-right: 1px solid black;
   border-radius: 7px;
-  /* height: 100%; */
-  background-size: 100% 100%, 20px 20px, 100% 100%;
-  background-image: /* linear-gradient(to bottom,
-                        rgba(255, 255, 255, 0.33) 0,
-                        rgba(255, 255, 255, 0.08) 50%,
-                        rgba(0, 0, 0, 0.25) 50%,
-                        rgba(0, 0, 0, 0.1) 100%),
-        linear-gradient(45deg,
-                        rgba(255, 255, 255, 0.16) 25%,
-                        rgba(0, 0, 0, 0) 25%,
-                        rgba(0, 0, 0, 0) 50%,
-                        rgba(255, 255, 255, 0.16) 50%,
-                        rgba(255, 255, 255, 0.16) 75%,
-                        rgba(0, 0, 0, 0) 75%,
-                        rgba(0, 0, 0, 0)), */
-  linear-gradient(to right, #0d5f7a, #639cc2);
-  box-shadow: inset 0 1px 1px 0px rgba(255, 215, 215, 0.5), inset 0 -1px 1px 0px rgba(255, 255, 255, 0.25), 1px 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
 .javascript {
@@ -500,49 +484,15 @@ ul#nav li.current a {
   background-color: rgb(0, 0, 0);
   border-right: 1px solid #808000;
   border-radius: 7px;
-  /* height: 100%; */
-  background-size: 100% 100%, 20px 20px, 100% 100%;
-  background-image: /* linear-gradient(to bottom,
-                        rgba(255, 255, 255, 0.33) 0,
-                        rgba(255, 255, 255, 0.08) 50%,
-                        rgba(0, 0, 0, 0.25) 50%,
-                        rgba(0, 0, 0, 0.1) 100%),
-        linear-gradient(45deg,
-                        rgba(255, 255, 255, 0.16) 25%,
-                        rgba(0, 0, 0, 0) 25%,
-                        rgba(0, 0, 0, 0) 50%,
-                        rgba(255, 255, 255, 0.16) 50%,
-                        rgba(255, 255, 255, 0.16) 75%,
-                        rgba(0, 0, 0, 0) 75%,
-                        rgba(0, 0, 0, 0)), */
-  linear-gradient(to right, #CCCC00, #FFFFAA);
-  box-shadow: inset 0 1px 1px 0px rgba(255, 215, 215, 0.5), inset 0 -1px 1px 0px rgba(255, 255, 255, 0.25), 1px 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
 .kafka {
   width: 65%;
   -moz-animation: kafka 2s ease;
   -webkit-animation: kafka 2s ease;
-  background-color: pink;
-  border-right: 1px solid #808000;
+  background-color: black;
+  border-right: 1px solid black;
   border-radius: 7px;
-  /* height: 100%; */
-  background-size: 100% 100%, 20px 20px, 100% 100%;
-  background-image: /* linear-gradient(to bottom,
-                        rgba(255, 255, 255, 0.33) 0,
-                        rgba(255, 255, 255, 0.08) 50%,
-                        rgba(0, 0, 0, 0.25) 50%,
-                        rgba(0, 0, 0, 0.1) 100%),
-        linear-gradient(45deg,
-                        rgba(255, 255, 255, 0.16) 25%,
-                        rgba(0, 0, 0, 0) 25%,
-                        rgba(0, 0, 0, 0) 50%,
-                        rgba(255, 255, 255, 0.16) 50%,
-                        rgba(255, 255, 255, 0.16) 75%,
-                        rgba(0, 0, 0, 0) 75%,
-                        rgba(0, 0, 0, 0)), */
-  linear-gradient(to right, rgb(233, 14, 105), rgba(233, 14, 105, 0.473));
-  box-shadow: inset 0 1px 1px 0px rgba(255, 215, 215, 0.5), inset 0 -1px 1px 0px rgba(255, 255, 255, 0.25), 1px 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
 
@@ -556,78 +506,27 @@ ul#nav li.current a {
   width: 80%;
   -moz-animation: java 2s ease;
   -webkit-animation: java 2s ease;
-  background-color: white;
-  border-right: 1px solid #374785;
+  background-color: black;
+  border-right: 1px solid black;
   border-radius: 7px;
-  /* height: 100%; */
-  background-size: 100% 100%, 20px 20px, 100% 100%;
-  background-image: /* linear-gradient(to bottom,
-                        rgba(255, 255, 255, 0.33) 0,
-                        rgba(255, 255, 255, 0.08) 50%,
-                        rgba(0, 0, 0, 0.25) 50%,
-                        rgba(0, 0, 0, 0.1) 100%),
-        linear-gradient(45deg,
-                        rgba(255, 255, 255, 0.16) 25%,
-                        rgba(0, 0, 0, 0) 25%,
-                        rgba(0, 0, 0, 0) 50%,
-                        rgba(255, 255, 255, 0.16) 50%,
-                        rgba(255, 255, 255, 0.16) 75%,
-                        rgba(0, 0, 0, 0) 75%,
-                        rgba(0, 0, 0, 0)), */
-  linear-gradient(to right, rgb(168, 111, 12), rgba(253, 161, 2, 0.76));
-  box-shadow: inset 0 1px 1px 0px rgba(255, 215, 215, 0.5), inset 0 -1px 1px 0px rgba(255, 255, 255, 0.25), 1px 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
 .python {
   width: 70%;
   -moz-animation: python 2s ease;
   -webkit-animation: python 2s ease;
-  background-color: #0606b9;
-  border-right: 1px solid #808000;
+  background-color: black;
+  border-right: 1px solid black;
   border-radius: 7px;
-  /* height: 100%; */
-  background-size: 100% 100%, 20px 20px, 100% 100%;
-  background-image: /* linear-gradient(to bottom,
-                        rgba(255, 255, 255, 0.33) 0,
-                        rgba(255, 255, 255, 0.08) 50%,
-                        rgba(0, 0, 0, 0.25) 50%,
-                        rgba(0, 0, 0, 0.1) 100%),
-        linear-gradient(45deg,
-                        rgba(255, 255, 255, 0.16) 25%,
-                        rgba(0, 0, 0, 0) 25%,
-                        rgba(0, 0, 0, 0) 50%,
-                        rgba(255, 255, 255, 0.16) 50%,
-                        rgba(255, 255, 255, 0.16) 75%,
-                        rgba(0, 0, 0, 0) 75%,
-                        rgba(0, 0, 0, 0)), */
-  linear-gradient(to right, #0606b9, #8e8ee6);
-  box-shadow: inset 0 1px 1px 0px rgba(255, 215, 215, 0.5), inset 0 -1px 1px 0px rgba(255, 255, 255, 0.25), 1px 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
 .angular {
   width: 50%;
   -moz-animation: angular 2s ease;
   -webkit-animation: angular 2s ease;
-  background-color: cyan;
-  border-right: 1px solid #808000;
+  background-color: black;
+  border-right: 1px solid black;
   border-radius: 7px;
-  /* height: 100%; */
-  background-size: 100% 100%, 20px 20px, 100% 100%;
-  background-image: /* linear-gradient(to bottom,
-                        rgba(255, 255, 255, 0.33) 0,
-                        rgba(255, 255, 255, 0.08) 50%,
-                        rgba(0, 0, 0, 0.25) 50%,
-                        rgba(0, 0, 0, 0.1) 100%),
-        linear-gradient(45deg,
-                        rgba(255, 255, 255, 0.16) 25%,
-                        rgba(0, 0, 0, 0) 25%,
-                        rgba(0, 0, 0, 0) 50%,
-                        rgba(255, 255, 255, 0.16) 50%,
-                        rgba(255, 255, 255, 0.16) 75%,
-                        rgba(0, 0, 0, 0) 75%,
-                        rgba(0, 0, 0, 0)), */
-  linear-gradient(to right, rgb(11, 122, 122), cyan);
-  box-shadow: inset 0 1px 1px 0px rgba(255, 215, 215, 0.5), inset 0 -1px 1px 0px rgba(255, 255, 255, 0.25), 1px 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
 @-moz-keyframes htmlcss {
