@@ -310,7 +310,7 @@
   
    /* copyright */
    footer .copyright li:before { content: none; }
-   footer .copyright li { margin-right: 0px; margin-bottom: 0px}
+   footer .copyright li { margin-right: 0px; margin-bottom: 0px; }
 
    /* social links */
    footer .social-links { font-size: 22px; }

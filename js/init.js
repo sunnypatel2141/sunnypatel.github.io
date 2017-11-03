@@ -10,6 +10,21 @@
 /* FitText Settings
 ------------------------------------------------------ */
 
+    /*---------------------------------------------------- */
+	/* Preloader
+	------------------------------------------------------ */ 
+   $(window).load(function() {
+    
+    // will first fade out the loading animation 
+    $("#loader").fadeOut("slow", function(){
+
+    // will fade out the whole DIV that covers the website.
+    $("#preloader").delay(300).fadeOut("slow");
+
+    });       
+
+    })
+
     setTimeout(function() {
 	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
 	 }, 100);
@@ -67,7 +82,7 @@
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #11ABB0}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #FF0077}";
         document.body.appendChild(css);
     };
 
