@@ -468,7 +468,7 @@ ul#nav li.current a {
 }
 
 .htmlcss {
-  width: 60%;
+  width: 70%;
   -moz-animation: htmlcss 2s ease;
   -webkit-animation: htmlcss 2s ease;
   background-color: black;
@@ -477,7 +477,7 @@ ul#nav li.current a {
 }
 
 .javascript {
-  width: 55%;
+  width: 65%;
   -moz-animation: javascript 2s ease;
   -webkit-animation: javascript 2s ease;
   background-color: rgb(0, 0, 0);
@@ -520,7 +520,7 @@ ul#nav li.current a {
 }
 
 .angular {
-  width: 50%;
+  width: 57.5%;
   -moz-animation: angular 2s ease;
   -webkit-animation: angular 2s ease;
   background-color: black;
@@ -533,16 +533,16 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 
-@-moz-keyframes css {
+@-moz-keyframes javascript {
   0% {
     width: 0px;
   }
   100% {
-    width: 55%;
+    width: 65%;
   }
 }
 
@@ -584,7 +584,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 57.5%;
   }
 }
 
@@ -593,7 +593,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -602,7 +602,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 55%;
+    width: 65%;
   }
 }
 
@@ -644,7 +644,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 57.5%;
   }
 }
 
