@@ -661,15 +661,39 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 
-#portfolio h1 {
-  font: 15px/24px 'opensans-semibold', sans-serif;
+
+#skills-port {
+  background: #161415 url(../images/Achievements.jpg) no-repeat top center;
+  background-size: cover !important;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#skills-port h1 span {
+  margin-bottom: 48px;
+  /* border-bottom: 3px solid orange;
+  padding-bottom: 3px; */
+  color: white;
+}
+
+#portfolio {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  background: #161415 url(../images/Achievements.jpg) no-repeat top center;
+  background-size: cover !important;
+}
+
+#portfolio h1 span {
+  font: 22px/24px 'opensans-semibold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95A3A3;
+  border-bottom: 3px solid orange;
+  padding-bottom: 3px;
+  color: white;
 }
-
 
 /* Portfolio Content */
 
@@ -678,7 +702,6 @@ ul#nav li.current a {
 }
 
 .portfolio-item .item-wrap {
-  background: #fff;
   overflow: hidden;
   position: relative;
   -webkit-transition: all 0.3s ease-in-out;
@@ -691,6 +714,8 @@ ul#nav li.current a {
 .portfolio-item .item-wrap a {
   display: block;
   cursor: pointer;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 
@@ -710,6 +735,8 @@ ul#nav li.current a {
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
   background: url(../images/overlay-bg.png) repeat;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .portfolio-item .item-wrap .link-icon {
@@ -736,6 +763,8 @@ ul#nav li.current a {
 
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
+  /* padding-bottom: 15px; */
+  /* padding-top: 25px; */
 }
 
 .portfolio-item .portfolio-item-meta {
@@ -937,8 +966,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #awards {
-  padding-top: 60px;
-  padding-bottom: 45px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   overflow: hidden;
   background: #161415 url(../images/Achievements.jpg) no-repeat top center;
   background-size: cover !important;
@@ -973,6 +1002,7 @@ call-to-action .button {
   border-bottom: 3px solid orange;
   padding-bottom: 3px;
   color: white;
+  font-size: 30px;
 }
 
 #awards h3 {
