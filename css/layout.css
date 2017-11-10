@@ -763,6 +763,7 @@ ul#nav li.current a {
 
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
+  border-radius: 25px;
   /* padding-bottom: 15px; */
   /* padding-top: 25px; */
 }
